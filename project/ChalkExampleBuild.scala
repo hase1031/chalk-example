@@ -10,8 +10,9 @@ object ChalkExampleBuild extends Build {
       name := "Chalk Example",
       organization := "com.hase1031",
       version := "0.1-SNAPSHOT",
-      scalaVersion := "2.10.2"
+      scalaVersion := "2.10.2",
       // add other settings here
+      libraryDependencies += "org.scalanlp" % "chalk" % "1.3.0"
     )
   )
 }
